@@ -1,0 +1,948 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C46F54272ECBEAD400CBF77D /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F540E2ECBEAD400CBF77D /* AnalyticsView.swift */; };
+		C46F54282ECBEAD400CBF77D /* Date+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F53FE2ECBEAD400CBF77D /* Date+Identifiable.swift */; };
+		C46F54292ECBEAD400CBF77D /* PikaMood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C46F54232ECBEAD400CBF77D /* PikaMood.xcdatamodeld */; };
+		C46F542A2ECBEAD400CBF77D /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F541F2ECBEAD400CBF77D /* HistoryView.swift */; };
+		C46F542B2ECBEAD400CBF77D /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F540A2ECBEAD400CBF77D /* Haptics.swift */; };
+		C46F542C2ECBEAD400CBF77D /* WeatherType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54062ECBEAD400CBF77D /* WeatherType.swift */; };
+		C46F542D2ECBEAD400CBF77D /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54162ECBEAD400CBF77D /* TodayView.swift */; };
+		C46F542E2ECBEAD400CBF77D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54042ECBEAD400CBF77D /* Models.swift */; };
+		C46F542F2ECBEAD400CBF77D /* MoodEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F541C2ECBEAD400CBF77D /* MoodEditorView.swift */; };
+		C46F54302ECBEAD400CBF77D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F53FA2ECBEAD400CBF77D /* ContentView.swift */; };
+		C46F54312ECBEAD400CBF77D /* MoodDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54022ECBEAD400CBF77D /* MoodDataService.swift */; };
+		C46F54322ECBEAD400CBF77D /* TapToDismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F53FF2ECBEAD400CBF77D /* TapToDismissKeyboard.swift */; };
+		C46F54332ECBEAD400CBF77D /* LocalAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F540B2ECBEAD400CBF77D /* LocalAuthManager.swift */; };
+		C46F54342ECBEAD400CBF77D /* MoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F541B2ECBEAD400CBF77D /* MoodDetailView.swift */; };
+		C46F54362ECBEAD400CBF77D /* LockScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F541A2ECBEAD400CBF77D /* LockScreenView.swift */; };
+		C46F54372ECBEAD400CBF77D /* YearInPixelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54182ECBEAD400CBF77D /* YearInPixelsView.swift */; };
+		C46F54382ECBEAD400CBF77D /* TagType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54242ECBEAD400CBF77D /* TagType.swift */; };
+		C46F54392ECBEAD400CBF77D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54142ECBEAD400CBF77D /* SettingsView.swift */; };
+		C46F543A2ECBEAD400CBF77D /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54122ECBEAD400CBF77D /* CalendarView.swift */; };
+		C46F543B2ECBEAD400CBF77D /* CalendarGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54112ECBEAD400CBF77D /* CalendarGridItem.swift */; };
+		C46F543C2ECBEAD400CBF77D /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F540C2ECBEAD400CBF77D /* NotificationManager.swift */; };
+		C46F543D2ECBEAD400CBF77D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54212ECBEAD400CBF77D /* Persistence.swift */; };
+		C46F543E2ECBEAD400CBF77D /* PikaMoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F53FB2ECBEAD400CBF77D /* PikaMoodApp.swift */; };
+		C46F543F2ECBEAD400CBF77D /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F53FD2ECBEAD400CBF77D /* Color+Hex.swift */; };
+		C46F54402ECBEAD400CBF77D /* MoodStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54052ECBEAD400CBF77D /* MoodStore.swift */; };
+		C46F54412ECBEAD400CBF77D /* LocalMoodDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54012ECBEAD400CBF77D /* LocalMoodDataService.swift */; };
+		C46F54422ECBEAD400CBF77D /* CalendarDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54102ECBEAD400CBF77D /* CalendarDate.swift */; };
+		C46F54452ECBEAD400CBF77D /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F540E2ECBEAD400CBF77D /* AnalyticsView.swift */; };
+		C46F54462ECBEAD400CBF77D /* Date+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F53FE2ECBEAD400CBF77D /* Date+Identifiable.swift */; };
+		C46F54472ECBEAD400CBF77D /* PikaMood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C46F54232ECBEAD400CBF77D /* PikaMood.xcdatamodeld */; };
+		C46F54482ECBEAD400CBF77D /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F541F2ECBEAD400CBF77D /* HistoryView.swift */; };
+		C46F54492ECBEAD400CBF77D /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F540A2ECBEAD400CBF77D /* Haptics.swift */; };
+		C46F544A2ECBEAD400CBF77D /* WeatherType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54062ECBEAD400CBF77D /* WeatherType.swift */; };
+		C46F544B2ECBEAD400CBF77D /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54162ECBEAD400CBF77D /* TodayView.swift */; };
+		C46F544C2ECBEAD400CBF77D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54042ECBEAD400CBF77D /* Models.swift */; };
+		C46F544D2ECBEAD400CBF77D /* MoodEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F541C2ECBEAD400CBF77D /* MoodEditorView.swift */; };
+		C46F544E2ECBEAD400CBF77D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F53FA2ECBEAD400CBF77D /* ContentView.swift */; };
+		C46F544F2ECBEAD400CBF77D /* MoodDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54022ECBEAD400CBF77D /* MoodDataService.swift */; };
+		C46F54502ECBEAD400CBF77D /* TapToDismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F53FF2ECBEAD400CBF77D /* TapToDismissKeyboard.swift */; };
+		C46F54512ECBEAD400CBF77D /* LocalAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F540B2ECBEAD400CBF77D /* LocalAuthManager.swift */; };
+		C46F54522ECBEAD400CBF77D /* MoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F541B2ECBEAD400CBF77D /* MoodDetailView.swift */; };
+		C46F54542ECBEAD400CBF77D /* LockScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F541A2ECBEAD400CBF77D /* LockScreenView.swift */; };
+		C46F54552ECBEAD400CBF77D /* YearInPixelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54182ECBEAD400CBF77D /* YearInPixelsView.swift */; };
+		C46F54562ECBEAD400CBF77D /* TagType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54242ECBEAD400CBF77D /* TagType.swift */; };
+		C46F54572ECBEAD400CBF77D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54142ECBEAD400CBF77D /* SettingsView.swift */; };
+		C46F54582ECBEAD400CBF77D /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54122ECBEAD400CBF77D /* CalendarView.swift */; };
+		C46F54592ECBEAD400CBF77D /* CalendarGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54112ECBEAD400CBF77D /* CalendarGridItem.swift */; };
+		C46F545A2ECBEAD400CBF77D /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F540C2ECBEAD400CBF77D /* NotificationManager.swift */; };
+		C46F545B2ECBEAD400CBF77D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54212ECBEAD400CBF77D /* Persistence.swift */; };
+		C46F545C2ECBEAD400CBF77D /* PikaMoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F53FB2ECBEAD400CBF77D /* PikaMoodApp.swift */; };
+		C46F545D2ECBEAD400CBF77D /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F53FD2ECBEAD400CBF77D /* Color+Hex.swift */; };
+		C46F545E2ECBEAD400CBF77D /* MoodStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54052ECBEAD400CBF77D /* MoodStore.swift */; };
+		C46F545F2ECBEAD400CBF77D /* LocalMoodDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54012ECBEAD400CBF77D /* LocalMoodDataService.swift */; };
+		C46F54602ECBEAD400CBF77D /* CalendarDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54102ECBEAD400CBF77D /* CalendarDate.swift */; };
+		C46F54612ECBEAD400CBF77D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46F541E2ECBEAD400CBF77D /* Assets.xcassets */; };
+		C46F54622ECBEAD400CBF77D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C46F54202ECBEAD400CBF77D /* Info.plist */; };
+		C4781F3C2ECBEEFD00A3799F /* PMUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4781F3B2ECBEEFA00A3799F /* PMUser.swift */; };
+		C4781F3D2ECBEEFD00A3799F /* PMUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4781F3B2ECBEEFA00A3799F /* PMUser.swift */; };
+		C4781F422ECBEF5D00A3799F /* CloudKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4781F412ECBEF5B00A3799F /* CloudKitService.swift */; };
+		C4781F432ECBEF5D00A3799F /* CloudKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4781F412ECBEF5B00A3799F /* CloudKitService.swift */; };
+		C4781F452ECBEFC100A3799F /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4781F442ECBEFBE00A3799F /* UserViewModel.swift */; };
+		C4781F462ECBEFC100A3799F /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4781F442ECBEFBE00A3799F /* UserViewModel.swift */; };
+		C4781F492ECBF24300A3799F /* UserProfileSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4781F482ECBF23E00A3799F /* UserProfileSection.swift */; };
+		C4781F4A2ECBF24300A3799F /* UserProfileSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4781F482ECBF23E00A3799F /* UserProfileSection.swift */; };
+		C4781F4C2ECBF44A00A3799F /* PartnerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4781F4B2ECBF44800A3799F /* PartnerSection.swift */; };
+		C4781F4D2ECBF44A00A3799F /* PartnerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4781F4B2ECBF44800A3799F /* PartnerSection.swift */; };
+		C4F2E5972ECD15AE0014D9A0 /* PartnerMoodCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E5962ECD15AC0014D9A0 /* PartnerMoodCard.swift */; };
+		C4F2E5982ECD15AE0014D9A0 /* PartnerMoodCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E5962ECD15AC0014D9A0 /* PartnerMoodCard.swift */; };
+		C4F2E59A2ECD1A820014D9A0 /* PartnerMoodHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E5992ECD1A810014D9A0 /* PartnerMoodHistoryView.swift */; };
+		C4F2E59B2ECD1A820014D9A0 /* PartnerMoodHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E5992ECD1A810014D9A0 /* PartnerMoodHistoryView.swift */; };
+		C4F2E59D2ECD1DA10014D9A0 /* PastelTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E59C2ECD1D9F0014D9A0 /* PastelTheme.swift */; };
+		C4F2E59E2ECD1DA10014D9A0 /* PastelTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E59C2ECD1D9F0014D9A0 /* PastelTheme.swift */; };
+		C4F2E5A02ECD20780014D9A0 /* PartnerMoodPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E59F2ECD20760014D9A0 /* PartnerMoodPopup.swift */; };
+		C4F2E5A12ECD20780014D9A0 /* PartnerMoodPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E59F2ECD20760014D9A0 /* PartnerMoodPopup.swift */; };
+		C4F2E5A32ECD20A30014D9A0 /* SuggestionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E5A22ECD20A20014D9A0 /* SuggestionEngine.swift */; };
+		C4F2E5A42ECD20A30014D9A0 /* SuggestionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E5A22ECD20A20014D9A0 /* SuggestionEngine.swift */; };
+		C4F2E5A62ECD23330014D9A0 /* HugEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E5A52ECD23320014D9A0 /* HugEvent.swift */; };
+		C4F2E5A72ECD23330014D9A0 /* HugEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E5A52ECD23320014D9A0 /* HugEvent.swift */; };
+		C4F2E5A92ECD23970014D9A0 /* SupportMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E5A82ECD23960014D9A0 /* SupportMessage.swift */; };
+		C4F2E5AA2ECD23970014D9A0 /* SupportMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E5A82ECD23960014D9A0 /* SupportMessage.swift */; };
+		C4F2E5AF2ECD2D620014D9A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E5AE2ECD2D500014D9A0 /* AppDelegate.swift */; };
+		C4F2E5B02ECD2D620014D9A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E5AE2ECD2D500014D9A0 /* AppDelegate.swift */; };
+		C4F2E5B22ECD2F210014D9A0 /* CloudKitSubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E5B12ECD2F1F0014D9A0 /* CloudKitSubscriptionManager.swift */; };
+		C4F2E5B32ECD2F210014D9A0 /* CloudKitSubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E5B12ECD2F1F0014D9A0 /* CloudKitSubscriptionManager.swift */; };
+		C4F2E5B52ECD5DFB0014D9A0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F2E5B42ECD5DFB0014D9A0 /* Launch Screen.storyboard */; };
+		C4F2E5B62ECD5DFB0014D9A0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F2E5B42ECD5DFB0014D9A0 /* Launch Screen.storyboard */; };
+		C4F2E5B72ECD67FC0014D9A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46F541E2ECBEAD400CBF77D /* Assets.xcassets */; };
+		C4F2E5B92ECE50230014D9A0 /* ICloudSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E5B82ECE50220014D9A0 /* ICloudSetupView.swift */; };
+		C4F2E5BA2ECE50230014D9A0 /* ICloudSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E5B82ECE50220014D9A0 /* ICloudSetupView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C428721B2ECA731D005D0286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C42872002ECA731B005D0286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C42872072ECA731B005D0286;
+			remoteInfo = PikaMood;
+		};
+		C42872252ECA731D005D0286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C42872002ECA731B005D0286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C42872072ECA731B005D0286;
+			remoteInfo = PikaMood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C42872082ECA731B005D0286 /* PikaMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PikaMood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C428721A2ECA731D005D0286 /* PikaMoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PikaMoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42872242ECA731D005D0286 /* PikaMoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PikaMoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46F53FA2ECBEAD400CBF77D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C46F53FB2ECBEAD400CBF77D /* PikaMoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PikaMoodApp.swift; sourceTree = "<group>"; };
+		C46F53FD2ECBEAD400CBF77D /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		C46F53FE2ECBEAD400CBF77D /* Date+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Identifiable.swift"; sourceTree = "<group>"; };
+		C46F53FF2ECBEAD400CBF77D /* TapToDismissKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapToDismissKeyboard.swift; sourceTree = "<group>"; };
+		C46F54012ECBEAD400CBF77D /* LocalMoodDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMoodDataService.swift; sourceTree = "<group>"; };
+		C46F54022ECBEAD400CBF77D /* MoodDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDataService.swift; sourceTree = "<group>"; };
+		C46F54042ECBEAD400CBF77D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C46F54052ECBEAD400CBF77D /* MoodStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodStore.swift; sourceTree = "<group>"; };
+		C46F54062ECBEAD400CBF77D /* WeatherType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherType.swift; sourceTree = "<group>"; };
+		C46F540A2ECBEAD400CBF77D /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		C46F540B2ECBEAD400CBF77D /* LocalAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthManager.swift; sourceTree = "<group>"; };
+		C46F540C2ECBEAD400CBF77D /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		C46F540E2ECBEAD400CBF77D /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		C46F54102ECBEAD400CBF77D /* CalendarDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDate.swift; sourceTree = "<group>"; };
+		C46F54112ECBEAD400CBF77D /* CalendarGridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGridItem.swift; sourceTree = "<group>"; };
+		C46F54122ECBEAD400CBF77D /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		C46F54142ECBEAD400CBF77D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C46F54162ECBEAD400CBF77D /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		C46F54182ECBEAD400CBF77D /* YearInPixelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearInPixelsView.swift; sourceTree = "<group>"; };
+		C46F541A2ECBEAD400CBF77D /* LockScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenView.swift; sourceTree = "<group>"; };
+		C46F541B2ECBEAD400CBF77D /* MoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDetailView.swift; sourceTree = "<group>"; };
+		C46F541C2ECBEAD400CBF77D /* MoodEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEditorView.swift; sourceTree = "<group>"; };
+		C46F541E2ECBEAD400CBF77D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C46F541F2ECBEAD400CBF77D /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		C46F54202ECBEAD400CBF77D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C46F54212ECBEAD400CBF77D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C46F54222ECBEAD400CBF77D /* PikaMood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PikaMood.entitlements; sourceTree = "<group>"; };
+		C46F54242ECBEAD400CBF77D /* TagType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagType.swift; sourceTree = "<group>"; };
+		C46F54262ECBEAD400CBF77D /* PikaMood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PikaMood.xcdatamodel; sourceTree = "<group>"; };
+		C4781F3B2ECBEEFA00A3799F /* PMUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMUser.swift; sourceTree = "<group>"; };
+		C4781F412ECBEF5B00A3799F /* CloudKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitService.swift; sourceTree = "<group>"; };
+		C4781F442ECBEFBE00A3799F /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		C4781F482ECBF23E00A3799F /* UserProfileSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileSection.swift; sourceTree = "<group>"; };
+		C4781F4B2ECBF44800A3799F /* PartnerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerSection.swift; sourceTree = "<group>"; };
+		C4F2E5962ECD15AC0014D9A0 /* PartnerMoodCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerMoodCard.swift; sourceTree = "<group>"; };
+		C4F2E5992ECD1A810014D9A0 /* PartnerMoodHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerMoodHistoryView.swift; sourceTree = "<group>"; };
+		C4F2E59C2ECD1D9F0014D9A0 /* PastelTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastelTheme.swift; sourceTree = "<group>"; };
+		C4F2E59F2ECD20760014D9A0 /* PartnerMoodPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerMoodPopup.swift; sourceTree = "<group>"; };
+		C4F2E5A22ECD20A20014D9A0 /* SuggestionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionEngine.swift; sourceTree = "<group>"; };
+		C4F2E5A52ECD23320014D9A0 /* HugEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HugEvent.swift; sourceTree = "<group>"; };
+		C4F2E5A82ECD23960014D9A0 /* SupportMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportMessage.swift; sourceTree = "<group>"; };
+		C4F2E5AE2ECD2D500014D9A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4F2E5B12ECD2F1F0014D9A0 /* CloudKitSubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitSubscriptionManager.swift; sourceTree = "<group>"; };
+		C4F2E5B42ECD5DFB0014D9A0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C4F2E5B82ECE50220014D9A0 /* ICloudSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICloudSetupView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C428721D2ECA731D005D0286 /* PikaMoodTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PikaMoodTests;
+			sourceTree = "<group>";
+		};
+		C42872272ECA731D005D0286 /* PikaMoodUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PikaMoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C42872052ECA731B005D0286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42872172ECA731D005D0286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42872212ECA731D005D0286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C42871FF2ECA731B005D0286 = {
+			isa = PBXGroup;
+			children = (
+				C4F2E5B42ECD5DFB0014D9A0 /* Launch Screen.storyboard */,
+				C428721D2ECA731D005D0286 /* PikaMoodTests */,
+				C42872272ECA731D005D0286 /* PikaMoodUITests */,
+				C42872092ECA731B005D0286 /* Products */,
+				C46F54252ECBEAD400CBF77D /* PikaMood */,
+			);
+			sourceTree = "<group>";
+		};
+		C42872092ECA731B005D0286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C42872082ECA731B005D0286 /* PikaMood.app */,
+				C428721A2ECA731D005D0286 /* PikaMoodTests.xctest */,
+				C42872242ECA731D005D0286 /* PikaMoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C46F53FC2ECBEAD400CBF77D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C46F53FA2ECBEAD400CBF77D /* ContentView.swift */,
+				C46F53FB2ECBEAD400CBF77D /* PikaMoodApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C46F54002ECBEAD400CBF77D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C4F2E5AE2ECD2D500014D9A0 /* AppDelegate.swift */,
+				C4F2E59C2ECD1D9F0014D9A0 /* PastelTheme.swift */,
+				C46F53FD2ECBEAD400CBF77D /* Color+Hex.swift */,
+				C46F53FE2ECBEAD400CBF77D /* Date+Identifiable.swift */,
+				C46F53FF2ECBEAD400CBF77D /* TapToDismissKeyboard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C46F54032ECBEAD400CBF77D /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				C46F54012ECBEAD400CBF77D /* LocalMoodDataService.swift */,
+				C46F54022ECBEAD400CBF77D /* MoodDataService.swift */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		C46F54072ECBEAD400CBF77D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4F2E5A82ECD23960014D9A0 /* SupportMessage.swift */,
+				C4781F442ECBEFBE00A3799F /* UserViewModel.swift */,
+				C4781F3B2ECBEEFA00A3799F /* PMUser.swift */,
+				C46F54032ECBEAD400CBF77D /* DataService */,
+				C46F54042ECBEAD400CBF77D /* Models.swift */,
+				C46F54052ECBEAD400CBF77D /* MoodStore.swift */,
+				C46F54062ECBEAD400CBF77D /* WeatherType.swift */,
+				C4F2E5A52ECD23320014D9A0 /* HugEvent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C46F540D2ECBEAD400CBF77D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C4F2E5B12ECD2F1F0014D9A0 /* CloudKitSubscriptionManager.swift */,
+				C4781F412ECBEF5B00A3799F /* CloudKitService.swift */,
+				C46F540A2ECBEAD400CBF77D /* Haptics.swift */,
+				C46F540B2ECBEAD400CBF77D /* LocalAuthManager.swift */,
+				C46F540C2ECBEAD400CBF77D /* NotificationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C46F540F2ECBEAD400CBF77D /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				C46F540E2ECBEAD400CBF77D /* AnalyticsView.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		C46F54132ECBEAD400CBF77D /* Calender */ = {
+			isa = PBXGroup;
+			children = (
+				C46F54102ECBEAD400CBF77D /* CalendarDate.swift */,
+				C46F54112ECBEAD400CBF77D /* CalendarGridItem.swift */,
+				C46F54122ECBEAD400CBF77D /* CalendarView.swift */,
+			);
+			path = Calender;
+			sourceTree = "<group>";
+		};
+		C46F54152ECBEAD400CBF77D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C46F54142ECBEAD400CBF77D /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C46F54172ECBEAD400CBF77D /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				C46F54162ECBEAD400CBF77D /* TodayView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		C46F54192ECBEAD400CBF77D /* YearInPixels */ = {
+			isa = PBXGroup;
+			children = (
+				C46F54182ECBEAD400CBF77D /* YearInPixelsView.swift */,
+			);
+			path = YearInPixels;
+			sourceTree = "<group>";
+		};
+		C46F541D2ECBEAD400CBF77D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4781F472ECBF23400A3799F /* Components */,
+				C46F540F2ECBEAD400CBF77D /* Analytics */,
+				C46F54132ECBEAD400CBF77D /* Calender */,
+				C46F54152ECBEAD400CBF77D /* Settings */,
+				C46F54172ECBEAD400CBF77D /* Today */,
+				C46F54192ECBEAD400CBF77D /* YearInPixels */,
+				C46F541A2ECBEAD400CBF77D /* LockScreenView.swift */,
+				C46F541B2ECBEAD400CBF77D /* MoodDetailView.swift */,
+				C46F541C2ECBEAD400CBF77D /* MoodEditorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C46F54252ECBEAD400CBF77D /* PikaMood */ = {
+			isa = PBXGroup;
+			children = (
+				C46F53FC2ECBEAD400CBF77D /* App */,
+				C46F54002ECBEAD400CBF77D /* Extensions */,
+				C46F54072ECBEAD400CBF77D /* Models */,
+				C46F540D2ECBEAD400CBF77D /* Services */,
+				C46F541D2ECBEAD400CBF77D /* Views */,
+				C46F541E2ECBEAD400CBF77D /* Assets.xcassets */,
+				C46F541F2ECBEAD400CBF77D /* HistoryView.swift */,
+				C46F54202ECBEAD400CBF77D /* Info.plist */,
+				C46F54212ECBEAD400CBF77D /* Persistence.swift */,
+				C46F54222ECBEAD400CBF77D /* PikaMood.entitlements */,
+				C46F54232ECBEAD400CBF77D /* PikaMood.xcdatamodeld */,
+				C46F54242ECBEAD400CBF77D /* TagType.swift */,
+			);
+			path = PikaMood;
+			sourceTree = "<group>";
+		};
+		C4781F472ECBF23400A3799F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C4F2E5B82ECE50220014D9A0 /* ICloudSetupView.swift */,
+				C4F2E5A22ECD20A20014D9A0 /* SuggestionEngine.swift */,
+				C4F2E59F2ECD20760014D9A0 /* PartnerMoodPopup.swift */,
+				C4F2E5992ECD1A810014D9A0 /* PartnerMoodHistoryView.swift */,
+				C4F2E5962ECD15AC0014D9A0 /* PartnerMoodCard.swift */,
+				C4781F4B2ECBF44800A3799F /* PartnerSection.swift */,
+				C4781F482ECBF23E00A3799F /* UserProfileSection.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C42872072ECA731B005D0286 /* PikaMood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C428722E2ECA731D005D0286 /* Build configuration list for PBXNativeTarget "PikaMood" */;
+			buildPhases = (
+				C42872042ECA731B005D0286 /* Sources */,
+				C42872052ECA731B005D0286 /* Frameworks */,
+				C42872062ECA731B005D0286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PikaMood;
+			packageProductDependencies = (
+			);
+			productName = PikaMood;
+			productReference = C42872082ECA731B005D0286 /* PikaMood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C42872192ECA731D005D0286 /* PikaMoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42872312ECA731D005D0286 /* Build configuration list for PBXNativeTarget "PikaMoodTests" */;
+			buildPhases = (
+				C42872162ECA731D005D0286 /* Sources */,
+				C42872172ECA731D005D0286 /* Frameworks */,
+				C42872182ECA731D005D0286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C428721C2ECA731D005D0286 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C428721D2ECA731D005D0286 /* PikaMoodTests */,
+			);
+			name = PikaMoodTests;
+			packageProductDependencies = (
+			);
+			productName = PikaMoodTests;
+			productReference = C428721A2ECA731D005D0286 /* PikaMoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C42872232ECA731D005D0286 /* PikaMoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42872342ECA731D005D0286 /* Build configuration list for PBXNativeTarget "PikaMoodUITests" */;
+			buildPhases = (
+				C42872202ECA731D005D0286 /* Sources */,
+				C42872212ECA731D005D0286 /* Frameworks */,
+				C42872222ECA731D005D0286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C42872262ECA731D005D0286 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C42872272ECA731D005D0286 /* PikaMoodUITests */,
+			);
+			name = PikaMoodUITests;
+			packageProductDependencies = (
+			);
+			productName = PikaMoodUITests;
+			productReference = C42872242ECA731D005D0286 /* PikaMoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C42872002ECA731B005D0286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					C42872072ECA731B005D0286 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					C42872192ECA731D005D0286 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = C42872072ECA731B005D0286;
+					};
+					C42872232ECA731D005D0286 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = C42872072ECA731B005D0286;
+					};
+				};
+			};
+			buildConfigurationList = C42872032ECA731B005D0286 /* Build configuration list for PBXProject "PikaMood" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C42871FF2ECA731B005D0286;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C42872092ECA731B005D0286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C42872072ECA731B005D0286 /* PikaMood */,
+				C42872192ECA731D005D0286 /* PikaMoodTests */,
+				C42872232ECA731D005D0286 /* PikaMoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C42872062ECA731B005D0286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F2E5B72ECD67FC0014D9A0 /* Assets.xcassets in Resources */,
+				C4F2E5B62ECD5DFB0014D9A0 /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42872182ECA731D005D0286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F2E5B52ECD5DFB0014D9A0 /* Launch Screen.storyboard in Resources */,
+				C46F54612ECBEAD400CBF77D /* Assets.xcassets in Resources */,
+				C46F54622ECBEAD400CBF77D /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42872222ECA731D005D0286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C42872042ECA731B005D0286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F2E5B02ECD2D620014D9A0 /* AppDelegate.swift in Sources */,
+				C4781F4C2ECBF44A00A3799F /* PartnerSection.swift in Sources */,
+				C4F2E5982ECD15AE0014D9A0 /* PartnerMoodCard.swift in Sources */,
+				C46F54272ECBEAD400CBF77D /* AnalyticsView.swift in Sources */,
+				C46F54282ECBEAD400CBF77D /* Date+Identifiable.swift in Sources */,
+				C46F54292ECBEAD400CBF77D /* PikaMood.xcdatamodeld in Sources */,
+				C46F542A2ECBEAD400CBF77D /* HistoryView.swift in Sources */,
+				C4781F3D2ECBEEFD00A3799F /* PMUser.swift in Sources */,
+				C46F542B2ECBEAD400CBF77D /* Haptics.swift in Sources */,
+				C4781F4A2ECBF24300A3799F /* UserProfileSection.swift in Sources */,
+				C46F542C2ECBEAD400CBF77D /* WeatherType.swift in Sources */,
+				C46F542D2ECBEAD400CBF77D /* TodayView.swift in Sources */,
+				C46F542E2ECBEAD400CBF77D /* Models.swift in Sources */,
+				C4781F422ECBEF5D00A3799F /* CloudKitService.swift in Sources */,
+				C46F542F2ECBEAD400CBF77D /* MoodEditorView.swift in Sources */,
+				C46F54302ECBEAD400CBF77D /* ContentView.swift in Sources */,
+				C46F54312ECBEAD400CBF77D /* MoodDataService.swift in Sources */,
+				C4F2E5A12ECD20780014D9A0 /* PartnerMoodPopup.swift in Sources */,
+				C4781F452ECBEFC100A3799F /* UserViewModel.swift in Sources */,
+				C46F54322ECBEAD400CBF77D /* TapToDismissKeyboard.swift in Sources */,
+				C4F2E5A42ECD20A30014D9A0 /* SuggestionEngine.swift in Sources */,
+				C46F54332ECBEAD400CBF77D /* LocalAuthManager.swift in Sources */,
+				C4F2E5BA2ECE50230014D9A0 /* ICloudSetupView.swift in Sources */,
+				C46F54342ECBEAD400CBF77D /* MoodDetailView.swift in Sources */,
+				C46F54362ECBEAD400CBF77D /* LockScreenView.swift in Sources */,
+				C46F54372ECBEAD400CBF77D /* YearInPixelsView.swift in Sources */,
+				C46F54382ECBEAD400CBF77D /* TagType.swift in Sources */,
+				C46F54392ECBEAD400CBF77D /* SettingsView.swift in Sources */,
+				C46F543A2ECBEAD400CBF77D /* CalendarView.swift in Sources */,
+				C46F543B2ECBEAD400CBF77D /* CalendarGridItem.swift in Sources */,
+				C46F543C2ECBEAD400CBF77D /* NotificationManager.swift in Sources */,
+				C4F2E59B2ECD1A820014D9A0 /* PartnerMoodHistoryView.swift in Sources */,
+				C46F543D2ECBEAD400CBF77D /* Persistence.swift in Sources */,
+				C46F543E2ECBEAD400CBF77D /* PikaMoodApp.swift in Sources */,
+				C46F543F2ECBEAD400CBF77D /* Color+Hex.swift in Sources */,
+				C46F54402ECBEAD400CBF77D /* MoodStore.swift in Sources */,
+				C46F54412ECBEAD400CBF77D /* LocalMoodDataService.swift in Sources */,
+				C4F2E5AA2ECD23970014D9A0 /* SupportMessage.swift in Sources */,
+				C4F2E59E2ECD1DA10014D9A0 /* PastelTheme.swift in Sources */,
+				C46F54422ECBEAD400CBF77D /* CalendarDate.swift in Sources */,
+				C4F2E5A72ECD23330014D9A0 /* HugEvent.swift in Sources */,
+				C4F2E5B22ECD2F210014D9A0 /* CloudKitSubscriptionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42872162ECA731D005D0286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46F54452ECBEAD400CBF77D /* AnalyticsView.swift in Sources */,
+				C46F54462ECBEAD400CBF77D /* Date+Identifiable.swift in Sources */,
+				C4F2E5A02ECD20780014D9A0 /* PartnerMoodPopup.swift in Sources */,
+				C46F54472ECBEAD400CBF77D /* PikaMood.xcdatamodeld in Sources */,
+				C46F54482ECBEAD400CBF77D /* HistoryView.swift in Sources */,
+				C46F54492ECBEAD400CBF77D /* Haptics.swift in Sources */,
+				C4F2E5A32ECD20A30014D9A0 /* SuggestionEngine.swift in Sources */,
+				C46F544A2ECBEAD400CBF77D /* WeatherType.swift in Sources */,
+				C4781F3C2ECBEEFD00A3799F /* PMUser.swift in Sources */,
+				C46F544B2ECBEAD400CBF77D /* TodayView.swift in Sources */,
+				C46F544C2ECBEAD400CBF77D /* Models.swift in Sources */,
+				C46F544D2ECBEAD400CBF77D /* MoodEditorView.swift in Sources */,
+				C46F544E2ECBEAD400CBF77D /* ContentView.swift in Sources */,
+				C46F544F2ECBEAD400CBF77D /* MoodDataService.swift in Sources */,
+				C46F54502ECBEAD400CBF77D /* TapToDismissKeyboard.swift in Sources */,
+				C46F54512ECBEAD400CBF77D /* LocalAuthManager.swift in Sources */,
+				C46F54522ECBEAD400CBF77D /* MoodDetailView.swift in Sources */,
+				C46F54542ECBEAD400CBF77D /* LockScreenView.swift in Sources */,
+				C46F54552ECBEAD400CBF77D /* YearInPixelsView.swift in Sources */,
+				C46F54562ECBEAD400CBF77D /* TagType.swift in Sources */,
+				C4F2E5B32ECD2F210014D9A0 /* CloudKitSubscriptionManager.swift in Sources */,
+				C4F2E5972ECD15AE0014D9A0 /* PartnerMoodCard.swift in Sources */,
+				C4781F432ECBEF5D00A3799F /* CloudKitService.swift in Sources */,
+				C4F2E5B92ECE50230014D9A0 /* ICloudSetupView.swift in Sources */,
+				C46F54572ECBEAD400CBF77D /* SettingsView.swift in Sources */,
+				C4F2E5A62ECD23330014D9A0 /* HugEvent.swift in Sources */,
+				C4F2E5AF2ECD2D620014D9A0 /* AppDelegate.swift in Sources */,
+				C46F54582ECBEAD400CBF77D /* CalendarView.swift in Sources */,
+				C46F54592ECBEAD400CBF77D /* CalendarGridItem.swift in Sources */,
+				C4781F4D2ECBF44A00A3799F /* PartnerSection.swift in Sources */,
+				C46F545A2ECBEAD400CBF77D /* NotificationManager.swift in Sources */,
+				C4781F492ECBF24300A3799F /* UserProfileSection.swift in Sources */,
+				C46F545B2ECBEAD400CBF77D /* Persistence.swift in Sources */,
+				C4F2E59D2ECD1DA10014D9A0 /* PastelTheme.swift in Sources */,
+				C4F2E59A2ECD1A820014D9A0 /* PartnerMoodHistoryView.swift in Sources */,
+				C4F2E5A92ECD23970014D9A0 /* SupportMessage.swift in Sources */,
+				C46F545C2ECBEAD400CBF77D /* PikaMoodApp.swift in Sources */,
+				C4781F462ECBEFC100A3799F /* UserViewModel.swift in Sources */,
+				C46F545D2ECBEAD400CBF77D /* Color+Hex.swift in Sources */,
+				C46F545E2ECBEAD400CBF77D /* MoodStore.swift in Sources */,
+				C46F545F2ECBEAD400CBF77D /* LocalMoodDataService.swift in Sources */,
+				C46F54602ECBEAD400CBF77D /* CalendarDate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42872202ECA731D005D0286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C428721C2ECA731D005D0286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C42872072ECA731B005D0286 /* PikaMood */;
+			targetProxy = C428721B2ECA731D005D0286 /* PBXContainerItemProxy */;
+		};
+		C42872262ECA731D005D0286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C42872072ECA731B005D0286 /* PikaMood */;
+			targetProxy = C42872252ECA731D005D0286 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C428722C2ECA731D005D0286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C428722D2ECA731D005D0286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C428722F2ECA731D005D0286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = PikaMood/PikaMood.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = V4BW977953;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PikaMood/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PikaMood;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brackits.PikaMood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C42872302ECA731D005D0286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = PikaMood/PikaMood.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = V4BW977953;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PikaMood/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PikaMood;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brackits.PikaMood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C42872322ECA731D005D0286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brackits.PikaMoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PikaMood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PikaMood";
+			};
+			name = Debug;
+		};
+		C42872332ECA731D005D0286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brackits.PikaMoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PikaMood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PikaMood";
+			};
+			name = Release;
+		};
+		C42872352ECA731D005D0286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brackits.PikaMoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PikaMood;
+			};
+			name = Debug;
+		};
+		C42872362ECA731D005D0286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brackits.PikaMoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PikaMood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C42872032ECA731B005D0286 /* Build configuration list for PBXProject "PikaMood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C428722C2ECA731D005D0286 /* Debug */,
+				C428722D2ECA731D005D0286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C428722E2ECA731D005D0286 /* Build configuration list for PBXNativeTarget "PikaMood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C428722F2ECA731D005D0286 /* Debug */,
+				C42872302ECA731D005D0286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42872312ECA731D005D0286 /* Build configuration list for PBXNativeTarget "PikaMoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42872322ECA731D005D0286 /* Debug */,
+				C42872332ECA731D005D0286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42872342ECA731D005D0286 /* Build configuration list for PBXNativeTarget "PikaMoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42872352ECA731D005D0286 /* Debug */,
+				C42872362ECA731D005D0286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C46F54232ECBEAD400CBF77D /* PikaMood.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C46F54262ECBEAD400CBF77D /* PikaMood.xcdatamodel */,
+			);
+			currentVersion = C46F54262ECBEAD400CBF77D /* PikaMood.xcdatamodel */;
+			path = PikaMood.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C42872002ECA731B005D0286 /* Project object */;
+}
