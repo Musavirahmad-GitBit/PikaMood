@@ -1,0 +1,83 @@
+//
+//  Localizable.strings
+//  PikaMood
+//
+//  Created by Musawwir Ahmad  on 2025-11-19.
+//
+
+// Mood labels
+"mood_veryHappy" = "Very happy";
+"mood_happy"     = "Happy";
+"mood_okay"      = "Okay";
+"mood_sad"       = "Sad";
+"mood_angry"     = "Angry";
+"mood_tired"     = "Tired";
+"mood_calm"      = "Calm";
+
+// Today screen
+"today_title" = "How are you feeling today?";
+"today_subtitle" = "Cute mood diary 🌸";
+"today_pick_mood" = "Pick your mood";
+"today_mood_strength" = "Mood intensity";
+"today_weather_optional" = "Weather (optional)";
+"today_tag_optional" = "With whom? (optional)";
+"today_journal_title" = "Short diary (optional)";
+"today_journal_placeholder" = "How was your day? 🐻";
+"today_save_button" = "Save 💖";
+"today_saved_toast" = "Saved ✨";
+
+// Settings
+"settings_title" = "Settings";
+"settings_account_section" = "Account 🧸";
+"settings_name" = "Name";
+"settings_your_code" = "Your code";
+"settings_partner_section" = "Partner 💞";
+"settings_partner_none" = "No partner linked yet.";
+"settings_partner_current" = "Current partner";
+"settings_partner_code_label" = "Code:";
+"settings_partner_input_placeholder" = "Enter partner code";
+"settings_partner_link_button" = "Link with partner";
+"settings_partner_refresh_button" = "Refresh partner info";
+"settings_lock_section" = "App Lock 🔐";
+"settings_lock_toggle" = "Enable Face ID / passcode";
+"settings_reminder_section" = "Daily reminder 💖";
+"settings_reminder_time" = "Choose time";
+
+// Partner mood card / popup
+"partner_mood_card_title" = "Partner’s mood today";
+"partner_mood_updated" = "Your partner updated their mood 💞";
+"partner_mood_suggestion_title" = "💡 Suggestion";
+"partner_send_hug" = "Send a hug 🤗";
+"partner_send_message" = "Send a message 💌";
+"partner_close" = "Close";
+
+// Language
+"settings_language" = "Language";
+"language_japanese" = "日本語";
+"language_english" = "English";
+
+"restart_title" = "Restart Required";
+"restart_message" = "The app must restart to apply the new language.";
+"restart_button" = "Restart Now";
+"restart_cancel" = "Cancel";
+
+"year_pixels_title" = "%d Year in Pixels";
+"year_pixels_subtitle" = "See your entire year's mood represented in colors 🌈";
+
+"analytics_title" = "Mood Analytics";
+"analytics_mood_ratio" = "Mood Breakdown";
+"analytics_weekly_trend" = "Weekly Mood Trend";
+"analytics_insights" = "Insights";
+"analytics_no_data" = "No data to analyze yet 🌱";
+
+"analytics_title" = "Mood Analytics";
+"analytics_subtitle" = "Gently look back at your emotional patterns";
+"analytics_summary_title" = "This Month's Mood Score";
+"analytics_summary_no_data" = "Not enough data yet. Try logging a few more days.";
+
+"analytics_trend_title" = "Mood Flow (Last 30 Days)";
+"analytics_mood_ratio" = "Mood Breakdown";
+"analytics_weekly_trend" = "Moods by Weekday";
+"analytics_insights" = "Insights";
+"analytics_no_data" = "No data to analyze yet 🌱";
+"analytics_tips_title" = "Small Tips";

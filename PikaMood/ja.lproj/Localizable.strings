@@ -1,0 +1,83 @@
+//
+//  Localizable.strings
+//  PikaMood
+//
+//  Created by Musawwir Ahmad  on 2025-11-19.
+//
+
+// Mood labels
+"mood_veryHappy" = "とても幸せ";
+"mood_happy"     = "うれしい";
+"mood_okay"      = "まあまあ";
+"mood_sad"       = "悲しい";
+"mood_angry"     = "イライラする";
+"mood_tired"     = "つかれた";
+"mood_calm"      = "落ち着いた";
+
+// Today screen
+"today_title" = "今日の気分は？";
+"today_subtitle" = "かわいいムード日記 🌸";
+"today_pick_mood" = "ムードを選んでください";
+"today_mood_strength" = "ムードの強さ";
+"today_weather_optional" = "天気 (任意)";
+"today_tag_optional" = "今日は誰と？ (任意)";
+"today_journal_title" = "ひとこと日記（任意）";
+"today_journal_placeholder" = "今日はどんな一日でしたか？ 🐻";
+"today_save_button" = "保存する 💖";
+"today_saved_toast" = "保存されました ✨";
+
+// Settings
+"settings_title" = "設定";
+"settings_account_section" = "アカウント 🧸";
+"settings_name" = "名前";
+"settings_your_code" = "あなたのコード";
+"settings_partner_section" = "パートナー 💞";
+"settings_partner_none" = "まだパートナーがリンクされていません。";
+"settings_partner_current" = "現在のパートナー";
+"settings_partner_code_label" = "コード:";
+"settings_partner_input_placeholder" = "パートナーのコードを入力";
+"settings_partner_link_button" = "パートナーとリンクする";
+"settings_partner_refresh_button" = "パートナー情報を更新";
+"settings_lock_section" = "アプリロック 🔐";
+"settings_lock_toggle" = "Face ID / パスコードを有効にする";
+"settings_reminder_section" = "毎日のリマインダー 💖";
+"settings_reminder_time" = "時間を選択";
+
+// Partner mood card / popup
+"partner_mood_card_title" = "パートナーの今日の気分";
+"partner_mood_updated" = "パートナーが気分を更新しました 💞";
+"partner_mood_suggestion_title" = "💡 提案";
+"partner_send_hug" = "ハグを送る 🤗";
+"partner_send_message" = "メッセージを送る 💌";
+"partner_close" = "閉じる";
+
+// Language
+"settings_language" = "言語";
+"language_japanese" = "日本語";
+"language_english" = "English";
+
+"restart_title" = "再起動が必要です";
+"restart_message" = "新しい言語を適用するにはアプリを再起動する必要があります。";
+"restart_button" = "今すぐ再起動";
+"restart_cancel" = "キャンセル";
+
+"year_pixels_title" = "%d 年のピクセル";
+"year_pixels_subtitle" = "一年間のムードを色で見てみましょう 🌈";
+
+"analytics_title" = "ムード分析";
+"analytics_mood_ratio" = "ムード割合";
+"analytics_weekly_trend" = "曜日ごとのムード傾向";
+"analytics_insights" = "インサイト";
+"analytics_no_data" = "まだ分析できるデータがありません 🌱";
+
+"analytics_title" = "ムード分析";
+"analytics_subtitle" = "こころのパターンをやさしく振り返りましょう";
+"analytics_summary_title" = "今月のムードスコア";
+"analytics_summary_no_data" = "まだ十分なデータがありません。少しずつ記録していきましょう。";
+
+"analytics_trend_title" = "30日間のこころの流れ";
+"analytics_mood_ratio" = "ムードの割合";
+"analytics_weekly_trend" = "曜日ごとのムード";
+"analytics_insights" = "インサイト";
+"analytics_no_data" = "まだ分析できるデータがありません 🌱";
+"analytics_tips_title" = "ちいさなヒント";

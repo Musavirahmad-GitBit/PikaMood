@@ -26,11 +26,16 @@ struct YearInPixelsView: View {
     // MARK: - Header
     private var headerSection: some View {
         VStack(spacing: 4) {
-            Text("\(year) 年のピクセル")
+            Text(
+                        String(
+                            format: NSLocalizedString("year_pixels_title", comment: ""),
+                            year
+                        )
+                    )
                 .font(.system(size: 28, weight: .bold, design: .rounded))
                 .foregroundColor(.purple)
 
-            Text("一年間のムードを色で見てみましょう 🌈")
+            Text(NSLocalizedString("year_pixels_subtitle", comment: ""))
                 .font(.subheadline)
                 .foregroundColor(.gray)
         }
@@ -93,8 +98,4 @@ struct YearInPixelsView: View {
 
         return entry.moodType.pixelColor(intensity: entry.intensity ?? 0.5)
     }
-}
-#Preview {
-    YearInPixelsView()
-        .environmentObject(MoodStore())
 }

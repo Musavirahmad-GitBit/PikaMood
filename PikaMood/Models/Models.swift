@@ -17,13 +17,13 @@ enum MoodType: String, CaseIterable, Identifiable, Codable {
     // Japanese label + emoji
     var label: String {
         switch self {
-        case .veryHappy: return "😄 とても幸せ"
-        case .happy:     return "😊 うれしい"
-        case .okay:      return "😐 まあまあ"
-        case .sad:       return "😢 悲しい"
-        case .angry:     return "😡 イライラする"
-        case .tired:     return "😴 つかれた"
-        case .calm:      return "😌 落ち着いた"
+        case .veryHappy: return NSLocalizedString("mood_veryHappy", comment: "")
+        case .happy:     return NSLocalizedString("mood_happy", comment: "")
+        case .okay:      return NSLocalizedString("mood_okay", comment: "")
+        case .sad:       return NSLocalizedString("mood_sad", comment: "")
+        case .angry:     return NSLocalizedString("mood_angry", comment: "")
+        case .tired:     return NSLocalizedString("mood_tired", comment: "")
+        case .calm:      return NSLocalizedString("mood_calm", comment: "")
         }
     }
 

@@ -107,7 +107,7 @@ struct MoodEditorView: View {
         ]
 
         return VStack(alignment: .leading, spacing: 12) {
-            Text("ムードを選んでください")
+            Text(NSLocalizedString("today_pick_mood", comment: ""))
                 .font(.headline)
                 .foregroundColor(.purple)
 
@@ -156,7 +156,7 @@ struct MoodEditorView: View {
     }
     private var intensitySection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("ムードの強さ")
+            Text(NSLocalizedString("today_mood_strength", comment: ""))
                 .font(.headline)
                 .foregroundColor(.purple)
 
@@ -190,7 +190,7 @@ struct MoodEditorView: View {
 
     private var weatherSection: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("天気 (任意)")
+            Text(NSLocalizedString("today_weather_optional", comment: ""))
                 .font(.headline)
                 .foregroundColor(.purple)
 
@@ -219,7 +219,7 @@ struct MoodEditorView: View {
     }
     private var tagSection: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("今日は誰と？ (任意)")
+            Text(NSLocalizedString("today_tag_optional", comment: ""))
                 .font(.headline)
                 .foregroundColor(.purple)
 
@@ -256,7 +256,7 @@ struct MoodEditorView: View {
     }
     private var journalSection: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("ひとこと日記（任意）")
+            Text(NSLocalizedString("today_journal_title", comment: ""))
                 .font(.headline)
                 .foregroundColor(.purple)
 
@@ -272,7 +272,7 @@ struct MoodEditorView: View {
                 .overlay(
                     Group {
                         if journalText.isEmpty {
-                            Text("今日はどんな一日でしたか？ 🐻")
+                            Text(NSLocalizedString("today_journal_placeholder", comment: ""))
                                 .foregroundColor(.gray.opacity(0.6))
                                 .padding(.horizontal, 16)
                                 .padding(.vertical, 12)
@@ -299,7 +299,7 @@ struct MoodEditorView: View {
             }
 
         } label: {
-            Text("保存する 💖")
+            Text(NSLocalizedString("today_save_button", comment: ""))
                 .font(.system(size: 20, weight: .bold))
                 .foregroundColor(.white)
                 .padding(.vertical, 14)
@@ -319,7 +319,7 @@ struct MoodEditorView: View {
     private var savedToast: some View {
         Group {
             if showSavedToast {
-                Text("保存されました ✨")
+                Text(NSLocalizedString("today_saved_toast", comment: ""))
                     .font(.subheadline)
                     .foregroundColor(.white)
                     .padding(.horizontal, 20)
