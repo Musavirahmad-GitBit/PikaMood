@@ -336,11 +336,13 @@ struct MoodEditorView: View {
         }
     }
     private func formattedDate(_ date: Date) -> String {
-        let f = DateFormatter()
-        f.locale = Locale(identifier: "ja_JP")
-        f.dateStyle = .full
-        return f.string(from: date)
+        let formatter = DateFormatter()
+        formatter.locale = Locale.autoupdatingCurrent
+        formatter.calendar = Calendar.autoupdatingCurrent
+        formatter.dateStyle = .full
+        return formatter.string(from: date)
     }
+
 
     private func saveEntry() {
         // 1) Save locally
@@ -387,12 +389,7 @@ struct MoodEditorView: View {
             intensity = entry.intensity ?? 0.5
         }
     }
-
 }
-
-
-
-
 
 #Preview {
     MoodEditorView(date: Date())
