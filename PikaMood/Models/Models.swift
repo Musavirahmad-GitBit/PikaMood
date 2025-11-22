@@ -17,13 +17,13 @@ enum MoodType: String, CaseIterable, Identifiable, Codable {
     // Japanese label + emoji
     var label: String {
         switch self {
-        case .veryHappy: return "😄 とても幸せ"
-        case .happy:     return "😊 うれしい"
-        case .okay:      return "😐 まあまあ"
-        case .sad:       return "😢 悲しい"
-        case .angry:     return "😡 イライラする"
-        case .tired:     return "😴 つかれた"
-        case .calm:      return "😌 落ち着いた"
+        case .veryHappy: return NSLocalizedString("mood_veryHappy", comment: "")
+        case .happy:     return NSLocalizedString("mood_happy", comment: "")
+        case .okay:      return NSLocalizedString("mood_okay", comment: "")
+        case .sad:       return NSLocalizedString("mood_sad", comment: "")
+        case .angry:     return NSLocalizedString("mood_angry", comment: "")
+        case .tired:     return NSLocalizedString("mood_tired", comment: "")
+        case .calm:      return NSLocalizedString("mood_calm", comment: "")
         }
     }
 
@@ -118,19 +118,36 @@ extension MoodType {
     var notificationText: String {
         switch self {
         case .veryHappy:
-            return "😄 とても幸せな気分です！ 共有しましょう！"
+            return NSLocalizedString("notif_mood_veryHappy", comment: "")
         case .happy:
-            return "😊 嬉しい気分のようです！ 一緒に喜びましょう！"
+            return NSLocalizedString("notif_mood_happy", comment: "")
         case .okay:
-            return "🙂 普通の気分みたい。今日の様子を聞いてあげて。"
+            return NSLocalizedString("notif_mood_okay", comment: "")
         case .sad:
-            return "😢 悲しい気分のようです… 優しく声をかけてみて。"
+            return NSLocalizedString("notif_mood_sad", comment: "")
         case .angry:
-            return "😡 イライラしているみたい… 少しスペースをあげてあげよう。"
+            return NSLocalizedString("notif_mood_angry", comment: "")
         case .tired:
-            return "😴 つかれているようです… 励ましのメッセージを送ってみて。"
+            return NSLocalizedString("notif_mood_tired", comment: "")
         case .calm:
-            return "😌 落ち着いた気分のようです。いい感じですね！"
+            return NSLocalizedString("notif_mood_calm", comment: "")
         }
     }
 }
+
+
+extension MoodType {
+    /// Rough numeric scale to compare moods (0 = low / heavy, 4 = very positive)
+    var score: Int {
+        switch self {
+        case .veryHappy: return 4
+        case .happy:     return 3
+        case .okay:      return 2
+        case .calm:      return 2
+        case .tired:     return 1
+        case .sad:       return 0
+        case .angry:     return 0
+        }
+    }
+}
+

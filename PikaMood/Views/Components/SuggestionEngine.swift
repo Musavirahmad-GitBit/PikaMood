@@ -5,25 +5,25 @@ struct SuggestionEngine {
         switch mood {
 
         case .veryHappy:
-            return "素敵な気分を一緒にお祝いしましょう！🌟"
+            return NSLocalizedString("suggestion_very_happy", comment: "")
 
         case .happy:
-            return "うれしい気分を共有してあげましょう！🎉"
+            return NSLocalizedString("suggestion_happy", comment: "")
 
         case .okay:
-            return "今日の様子を優しく聞いてみませんか？🙂"
+            return NSLocalizedString("suggestion_okay", comment: "")
 
         case .sad:
-            return "優しいメッセージを送ってみませんか？💌"
+            return NSLocalizedString("suggestion_sad", comment: "")
 
         case .angry:
-            return "少しスペースをあげるのがいいかもしれません 🫶"
+            return NSLocalizedString("suggestion_angry", comment: "")
 
         case .tired:
-            return "「ゆっくり休んでね」と声をかけてあげましょう 😴🤍"
+            return NSLocalizedString("suggestion_tired", comment: "")
 
         case .calm:
-            return "落ち着いた気分を一緒に楽しみましょう 🌿😌"
+            return NSLocalizedString("suggestion_calm", comment: "")
         }
     }
 }

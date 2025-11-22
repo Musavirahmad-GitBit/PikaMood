@@ -1,0 +1,232 @@
+//
+//  Localizable.strings
+//  PikaMood
+//
+//  Created by Musawwir Ahmad  on 2025-11-19.
+//
+
+// Mood labels
+"mood_veryHappy" = "とても幸せ";
+"mood_happy"     = "うれしい";
+"mood_okay"      = "まあまあ";
+"mood_sad"       = "悲しい";
+"mood_angry"     = "イライラする";
+"mood_tired"     = "つかれた";
+"mood_calm"      = "落ち着いた";
+
+// Today screen
+"today_title" = "今日の気分は？";
+"today_subtitle" = "かわいいムード日記 🌸";
+"today_pick_mood" = "ムードを選んでください";
+"today_mood_strength" = "ムードの強さ";
+"today_weather_optional" = "天気 (任意)";
+"today_tag_optional" = "今日は誰と？ (任意)";
+"today_journal_title" = "ひとこと日記（任意）";
+"today_journal_placeholder" = "今日はどんな一日でしたか？ 🐻";
+"today_save_button" = "保存する 💖";
+"today_saved_toast" = "保存されました ✨";
+
+// Settings
+"settings_title" = "設定";
+"settings_account_section" = "アカウント 🧸";
+"settings_name" = "名前";
+"settings_your_code" = "あなたのコード";
+"settings_partner_section" = "パートナー 💞";
+"settings_partner_none" = "まだパートナーがリンクされていません。";
+"settings_partner_current" = "現在のパートナー";
+"settings_partner_code_label" = "コード:";
+"settings_partner_input_placeholder" = "パートナーのコードを入力";
+"settings_partner_link_button" = "パートナーとリンクする";
+"settings_partner_refresh_button" = "パートナー情報を更新";
+"settings_lock_section" = "アプリロック 🔐";
+"settings_lock_toggle" = "Face ID / パスコードを有効にする";
+"settings_reminder_section" = "毎日のリマインダー 💖";
+"settings_reminder_time" = "時間を選択";
+
+// Partner mood card / popup
+"partner_mood_card_title" = "パートナーの今日の気分";
+"partner_mood_updated" = "パートナーが気分を更新しました 💞";
+"partner_mood_suggestion_title" = "💡 提案";
+"partner_send_hug" = "ハグを送る 🤗";
+"partner_send_message" = "メッセージを送る 💌";
+"partner_close" = "閉じる";
+
+// Language
+"settings_language" = "言語";
+"language_japanese" = "日本語";
+"language_english" = "English";
+
+"restart_title" = "再起動が必要です";
+"restart_message" = "新しい言語を適用するにはアプリを再起動する必要があります。";
+"restart_button" = "今すぐ再起動";
+"restart_cancel" = "キャンセル";
+
+"year_pixels_title" = "%d 年のピクセル";
+"year_pixels_subtitle" = "一年間のムードを色で見てみましょう 🌈";
+
+"analytics_title" = "ムード分析";
+"analytics_mood_ratio" = "ムード割合";
+"analytics_weekly_trend" = "曜日ごとのムード傾向";
+"analytics_insights" = "インサイト";
+"analytics_no_data" = "まだ分析できるデータがありません 🌱";
+
+"analytics_title" = "ムード分析";
+"analytics_subtitle" = "こころのパターンをやさしく振り返りましょう";
+"analytics_summary_title" = "今月のムードスコア";
+"analytics_summary_no_data" = "まだ十分なデータがありません。少しずつ記録していきましょう。";
+
+"analytics_trend_title" = "30日間のこころの流れ";
+"analytics_mood_ratio" = "ムードの割合";
+"analytics_weekly_trend" = "曜日ごとのムード";
+"analytics_insights" = "インサイト";
+"analytics_no_data" = "まだ分析できるデータがありません 🌱";
+"analytics_tips_title" = "ちいさなヒント";
+
+"analytics_title" = "ムード分析";
+
+"analytics_overview_title" = "あなたのムードのまとめ";
+"analytics_overview_logs" = "これまでに %d 回ムードを記録しました。";
+"analytics_overview_last7" = "直近7日間で %d 回記録しています。";
+"analytics_overview_empty" = "まだムードが記録されていません。まずは今日の気分から始めましょう ✨";
+
+"analytics_self_section_title" = "あなたのムードパターン";
+"analytics_mood_ratio" = "ムードの割合";
+"analytics_weekly_trend" = "曜日ごとのムード傾向";
+
+"analytics_insight_title" = "インサイト";
+"analytics_insight_empty" = "まだ分析できるデータがありません 🌱";
+"analytics_insight_no_dominant" = "特に多いムードはなく、気分はバランスよく変化しています。";
+"analytics_insight_most_common" = "最近は「%@」の日が多いみたいです。";
+"analytics_insight_bestday_unknown" = "まだ「一番よい日」は特定できません。";
+"analytics_insight_bestday" = "「%@」はあなたのムードが良くなりやすい曜日です。";
+
+"analytics_partner_section_title" = "パートナーとのムード & カップルインサイト";
+"analytics_partner_no_data" = "まだパートナーのムードデータがありません。パートナーが記録を始めると、ここに二人のインサイトが表示されます 💞";
+"analytics_partner_summary_title" = "%@ さんとのつながり";
+"analytics_partner_sync_days" = "アクティブな日のうち %d%% は、二人とも同じ日に記録しています。";
+"analytics_partner_alignment" = "気分の一致度はおよそ %d%% です。";
+"analytics_partner_best_day" = "二人の気分が一番そろいやすいのは「%@」です。";
+"analytics_partner_top_shared_mood" = "もっとも多い共通ムード：%@";
+
+"analytics_partner_chart_title" = "二人のムードの流れ（直近14日）";
+"analytics_partner_chart_empty" = "最近、二人とも記録した同じ日がないため、比較グラフを表示できません。";
+
+"analytics_partner_insight_title" = "カップルインサイト";
+"analytics_partner_insight_empty" = "二人でムードを記録していくと、お互いを支え合うパターンが見えてきます 💞";
+"analytics_partner_insight_generic" = "二人は少しずつ、心のリズムを合わせていっています。";
+"analytics_partner_insight_summary" = "同じ日に記録しているのは %d%%、気分の一致度はおよそ %d%%。とても素敵なつながりですね 💕";
+
+"analytics_partner_support_partner" = "パートナーのほうが落ち込む日が多いみたい。あなたの穏やかさが、大きな支えになっています 🤍";
+"analytics_partner_support_you" = "あなたのほうがつらい日が多いようです。パートナーは安定して、あなたを支えてくれています 🫶";
+"analytics_partner_support_balanced" = "お互いに落ち込む日と支える日を分け合っています。やさしく支え合う、とてもバランスのよい関係です。";
+
+"analytics_empty_title" = "まだ分析がありません";
+"analytics_empty_subtitle" = "今日のムードを記録して、パターンを見てみましょう 🌈";
+
+"analytics_harmony_title" = "ムードハーモニー 💞";
+"analytics_harmony_empty" = "まだ二人のムードデータが少ないみたい…一緒に何日か記録してみましょう。";
+
+"analytics_harmony_label_perfect" = "テレパシーレベルのシンクロ 💞";
+"analytics_harmony_label_good" = "とてもいいバランス 💗";
+"analytics_harmony_label_soft" = "ゆるやかなハーモニー 🌈";
+"analytics_harmony_label_mix" = "いろんな気持ちがまざる日々 🌧️";
+"analytics_harmony_label_journey" = "気持ちを知る旅の途中… 🌱";
+
+"analytics_harmony_sub_perfect" = "最近、二人の気持ちがとてもよく重なっています。特別な時間を大切にしてみましょう。";
+"analytics_harmony_sub_good" = "お互いをよく感じ取れている期間です。小さな「ありがとう」を伝えてみませんか？";
+"analytics_harmony_sub_soft" = "似ている日もあれば、違う日もあるふつうの毎日。でも、それが関係を育てていきます。";
+"analytics_harmony_sub_mix" = "すれ違う日も多いみたい。相手の立場から一度話を聞いてみるのもいいかも。";
+"analytics_harmony_sub_journey" = "気持ちの波長は少しちがうけれど、だからこそ支え合える部分が見つかるかもしれません。";
+
+"analytics_galaxy_title" = "カップルムード銀河";
+"analytics_galaxy_subtitle" = "共有した日はすべて星になるよ 💫";
+"analytics_galaxy_empty" = "銀河を作るには共有日がまだ足りません。";
+
+"profile_header" = "プロフィール 🧸";
+"profile_name" = "名前";
+"profile_save" = "保存";
+"profile_edit" = "編集";
+"profile_your_code" = "あなたのコード";
+"profile_loading" = "ユーザー情報を読み込み中…";
+
+"partner_header" = "パートナー設定 💞";
+"partner_linked_title" = "リンク済みのパートナー";
+"partner_input_placeholder" = "パートナーコードを入力";
+"partner_link_button" = "リンクする 💗";
+
+"partner_mood_title" = "💞 パートナーの気分";
+"partner_mood_empty" = "まだ今日の気分は記録されていません。";
+
+"time_just_now" = "たった今";
+"time_minutes_ago" = "%d 分前";
+"time_hours_ago" = "%d 時間前";
+"time_yesterday" = "昨日";
+
+"mood_meaning_happy" = "💖 パートナーは幸せそう！やさしい言葉を送ってみる？";
+"mood_meaning_sad" = "💙 少し落ち込んでるかも。温かいメッセージを送ろう。";
+"mood_meaning_angry" = "❤️‍🔥 ストレスを感じているかも。そっと支えてあげて。";
+"mood_meaning_okay" = "💛 穏やかな気分みたい。小さな応援メッセージはどう？";
+"mood_meaning_default" = "🧸 パートナーの気分を大切にしよう。";
+
+"partner_history_title" = "%@ さんのムード履歴";
+"loading_text" = "読み込み中…";
+"nav_mood_history" = "気分の歴史";
+
+"partner_popup_title" = "パートナーが気分を更新しました 💞";
+"partner_popup_quote" = "「%@」";
+"partner_popup_suggestion_title" = "💡 提案";
+"partner_popup_send_hug" = "ハグを送る 🤗";
+"partner_popup_send_message" = "メッセージを送る 💌";
+"partner_popup_close" = "閉じる";
+
+"suggestion_very_happy" = "素敵な気分を一緒にお祝いしましょう！🌟";
+"suggestion_happy" = "うれしい気分を共有してあげましょう！🎉";
+"suggestion_okay" = "今日の様子を優しく聞いてみませんか？🙂";
+"suggestion_sad" = "優しいメッセージを送ってみませんか？💌";
+"suggestion_angry" = "少しスペースをあげるのがいいかもしれません 🫶";
+"suggestion_tired" = "「ゆっくり休んでね」と声をかけてあげましょう 😴🤍";
+"suggestion_calm" = "落ち着いた気分を一緒に楽しみましょう 🌿😌";
+
+"icloud_title" = "iCloudにサインインしてください";
+"icloud_description" = "このアプリはCloudKitを使用します。\n\nご利用いただくには、iPhoneでiCloudにサインインする必要があります。";
+"icloud_howto_title" = "📱 設定方法:";
+"icloud_step1" = "1. 設定アプリを開く";
+"icloud_step2" = "2. 一番上の名前をタップする";
+"icloud_step3" = "3. Apple ID でサインインする";
+"icloud_step4" = "4. iCloud をタップする";
+"icloud_step5" = "5. iCloud Drive をオンにする";
+"icloud_step6" = "6. PikaMood の iCloud をオンにする";
+"icloud_open_settings" = "設定アプリを開く";
+
+"mood_today_title" = "今日の気分は？";
+"mood_diary_subtitle" = "かわいいムード日記 🌸";
+
+"lock_title" = "🔒 PikaMood";
+"lock_faceid_prompt" = "Face IDでロック解除 💖";
+"lock_auth_button" = "認証する";
+"notif_daily_title" = "今日の気分は？ 💖";
+"notif_daily_body" = "ムードを記録しましょう 🌸";
+
+"notif_partner_title" = "パートナーの気分が更新されました 🌸";
+"auth_reason_unlock" = "PikaMoodロックを解除します";
+"notif_partner_ck_title" = "パートナーの気分が更新されました 💞";
+"notif_partner_ck_body" = "今日のムードをチェックしてみてください！";
+
+"notif_mood_veryHappy" = "😄 とても幸せな気分です！ 共有しましょう！";
+"notif_mood_happy"     = "😊 嬉しい気分のようです！ 一緒に喜びましょう！";
+"notif_mood_okay"      = "🙂 普通の気分みたい。今日の様子を聞いてあげて。";
+"notif_mood_sad"       = "😢 悲しい気分のようです… 優しく声をかけてみて。";
+"notif_mood_angry"     = "😡 イライラしているみたい… 少しスペースをあげよう。";
+"notif_mood_tired"     = "😴 つかれているようです… 励ましのメッセージを送ってみて。";
+"notif_mood_calm"      = "😌 落ち着いた気分のようです。いい感じですね！";
+
+"error_code_not_found" = "コードが見つかりませんでした。";
+"error_user_not_loaded" = "ユーザー情報が読み込めません。";
+"error_cannot_link_self" = "自分自身とはリンクできません。";
+"error_partner_link_failed" = "パートナーのリンクに失敗しました。";
+
+"tab_today" = "今日";
+"tab_calendar" = "カレンダー";
+"tab_analytics" = "分析";
+"tab_pixels" = "ピクセル";
+"tab_settings" = "設定";

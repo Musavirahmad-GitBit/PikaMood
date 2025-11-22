@@ -420,8 +420,8 @@ extension CloudKitService {
         )
 
         let info = CKSubscription.NotificationInfo()
-        info.title = "パートナーの気分が更新されました 💞"
-        info.alertBody  = "今日のムードをチェックしてみてください！"
+        info.title = NSLocalizedString("notif_partner_ck_title", comment: "CloudKit push: partner mood updated")
+        info.alertBody = NSLocalizedString("notif_partner_ck_body", comment: "CloudKit push: check partner mood")
         info.soundName  = "default"
         info.shouldBadge = true
         info.shouldSendContentAvailable = true

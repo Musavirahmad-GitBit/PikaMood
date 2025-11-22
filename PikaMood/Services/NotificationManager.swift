@@ -13,18 +13,22 @@ class NotificationManager {
 
     func scheduleDailyReminder(hour: Int, minute: Int) {
         // Remove old reminders
-        UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["dailyMoodReminder"])
+        UNUserNotificationCenter.current()
+            .removePendingNotificationRequests(withIdentifiers: ["dailyMoodReminder"])
 
         let content = UNMutableNotificationContent()
-        content.title = "今日の気分は？ 💖"
-        content.body = "ムードを記録しましょう 🌸"
+        content.title = NSLocalizedString("notif_daily_title", comment: "Daily reminder title")
+        content.body = NSLocalizedString("notif_daily_body", comment: "Daily reminder body")
         content.sound = .default
 
         var components = DateComponents()
         components.hour = hour
         components.minute = minute
 
-        let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: true)
+        let trigger = UNCalendarNotificationTrigger(
+            dateMatching: components,
+            repeats: true
+        )
 
         let request = UNNotificationRequest(
             identifier: "dailyMoodReminder",
@@ -34,11 +38,11 @@ class NotificationManager {
 
         UNUserNotificationCenter.current().add(request)
     }
-    
+
     func sendPartnerMoodChanged(mood: MoodType) {
         let content = UNMutableNotificationContent()
-        content.title = "パートナーの気分が更新されました 🌸"
-        content.body = mood.notificationText
+        content.title = NSLocalizedString("notif_partner_title", comment: "Partner mood changed title")
+        content.body = mood.notificationText   // Will localize this next
         content.sound = .default
 
         let req = UNNotificationRequest(
@@ -49,5 +53,4 @@ class NotificationManager {
 
         UNUserNotificationCenter.current().add(req)
     }
-
 }

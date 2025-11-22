@@ -12,12 +12,12 @@ struct PartnerSection: View {
     @State private var partnerCode = ""
 
     var body: some View {
-        Section(header: Text("パートナー設定 💞")) {
+        Section(header: Text(NSLocalizedString("partner_header", comment: ""))) {
 
             if let partner = userVM.partner {
                 // Already linked
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("リンク済みのパートナー")
+                    Text(NSLocalizedString("partner_linked_title", comment: ""))
                     Text(partner.displayName)
                         .font(.headline)
                         .foregroundColor(.pink)
@@ -25,10 +25,10 @@ struct PartnerSection: View {
 
             } else {
 
-                TextField("パートナーコードを入力", text: $partnerCode)
+                TextField(NSLocalizedString("partner_input_placeholder", comment: ""), text: $partnerCode)
                     .textFieldStyle(.roundedBorder)
 
-                Button("リンクする 💗") {
+                Button(NSLocalizedString("partner_link_button", comment: "")) {
                     let code = partnerCode.uppercased().trimmingCharacters(in: .whitespaces)
                     userVM.findAndLinkPartner(code: code)
                 }

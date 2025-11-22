@@ -15,13 +15,19 @@ struct PartnerMoodHistoryView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
 
-                Text("\(partner.displayName) さんのムード履歴")
-                    .font(.title2)
-                    .bold()
-                    .padding(.horizontal)
+                // LOCALIZED TITLE WITH PARTNER NAME
+                Text(
+                    String(
+                        format: NSLocalizedString("partner_history_title", comment: ""),
+                        partner.displayName
+                    )
+                )
+                .font(.title2)
+                .bold()
+                .padding(.horizontal)
 
                 if isLoading {
-                    ProgressView("読み込み中…")
+                    ProgressView(NSLocalizedString("loading_text", comment: ""))
                         .padding()
                 }
 
@@ -33,7 +39,8 @@ struct PartnerMoodHistoryView: View {
                 .padding(.horizontal)
             }
         }
-        .navigationTitle("気分の歴史")
+
+        .navigationTitle(NSLocalizedString("nav_mood_history", comment: ""))
         .onAppear { loadHistory() }
     }
 
@@ -57,7 +64,7 @@ struct PartnerMoodHistoryView: View {
 
     private func shortDate(_ date: Date) -> String {
         let f = DateFormatter()
-        f.dateFormat = "MM/dd"
+        f.dateFormat = "MM/dd"   // keep as-is (can localize later if needed)
         return f.string(from: date)
     }
 

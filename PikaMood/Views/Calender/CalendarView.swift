@@ -1,10 +1,18 @@
 import SwiftUI
 
+struct WeekdayStrings {
+    static let jp = ["月", "火", "水", "木", "金", "土", "日"]
+    static let en = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+}
+
+
 struct CalendarView: View {
     @EnvironmentObject var moodStore: MoodStore
 
     @State private var currentDate = Date()
     @State private var selectedDay: CalendarDay? = nil
+    @AppStorage("appLanguage") private var appLanguage: String = "ja"
+
 
 
     private let calendar = Calendar.current
@@ -75,7 +83,7 @@ struct CalendarView: View {
     // MARK: - Weekday Labels (Mon–Sun)
 
     private var weekdayLabels: some View {
-        let weekdays = ["月", "火", "水", "木", "金", "土", "日"]
+        let weekdays = appLanguage == "ja" ? WeekdayStrings.jp : WeekdayStrings.en
 
         return HStack {
             ForEach(weekdays, id: \.self) { day in
@@ -178,8 +186,13 @@ struct CalendarView: View {
 
     private func formatMonth(_ date: Date) -> String {
         let f = DateFormatter()
-        f.locale = Locale(identifier: "ja_JP")
-        f.dateFormat = "yyyy年 M月"
+        if appLanguage == "ja" {
+            f.locale = Locale(identifier: "ja_JP")
+            f.dateFormat = "yyyy年 M月"
+        } else {
+            f.locale = Locale(identifier: "en_US")
+            f.dateFormat = "MMMM yyyy"
+        }
         return f.string(from: date)
     }
 
@@ -222,8 +235,4 @@ struct CalendarView: View {
 
         return items
     }
-}
-#Preview {
-    CalendarView()
-        .environmentObject(MoodStore())
 }

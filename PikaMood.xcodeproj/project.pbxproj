@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C44BAB5A2ECEC8CB000B2B7C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C44BAB592ECEC8CB000B2B7C /* Localizable.strings */; };
+		C44BAB5B2ECEC8CB000B2B7C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C44BAB592ECEC8CB000B2B7C /* Localizable.strings */; };
+		C44BAB5E2ECECBA9000B2B7C /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44BAB5D2ECECBA7000B2B7C /* LanguageManager.swift */; };
+		C44BAB5F2ECECBA9000B2B7C /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44BAB5D2ECECBA7000B2B7C /* LanguageManager.swift */; };
+		C46D4A782ED199A300186DF4 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D4A772ED1999A00186DF4 /* BlurView.swift */; };
+		C46D4A792ED199A300186DF4 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D4A772ED1999A00186DF4 /* BlurView.swift */; };
 		C46F54272ECBEAD400CBF77D /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F540E2ECBEAD400CBF77D /* AnalyticsView.swift */; };
 		C46F54282ECBEAD400CBF77D /* Date+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F53FE2ECBEAD400CBF77D /* Date+Identifiable.swift */; };
 		C46F54292ECBEAD400CBF77D /* PikaMood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C46F54232ECBEAD400CBF77D /* PikaMood.xcdatamodeld */; };
-		C46F542A2ECBEAD400CBF77D /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F541F2ECBEAD400CBF77D /* HistoryView.swift */; };
 		C46F542B2ECBEAD400CBF77D /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F540A2ECBEAD400CBF77D /* Haptics.swift */; };
 		C46F542C2ECBEAD400CBF77D /* WeatherType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54062ECBEAD400CBF77D /* WeatherType.swift */; };
 		C46F542D2ECBEAD400CBF77D /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54162ECBEAD400CBF77D /* TodayView.swift */; };
@@ -37,7 +42,6 @@
 		C46F54452ECBEAD400CBF77D /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F540E2ECBEAD400CBF77D /* AnalyticsView.swift */; };
 		C46F54462ECBEAD400CBF77D /* Date+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F53FE2ECBEAD400CBF77D /* Date+Identifiable.swift */; };
 		C46F54472ECBEAD400CBF77D /* PikaMood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C46F54232ECBEAD400CBF77D /* PikaMood.xcdatamodeld */; };
-		C46F54482ECBEAD400CBF77D /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F541F2ECBEAD400CBF77D /* HistoryView.swift */; };
 		C46F54492ECBEAD400CBF77D /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F540A2ECBEAD400CBF77D /* Haptics.swift */; };
 		C46F544A2ECBEAD400CBF77D /* WeatherType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54062ECBEAD400CBF77D /* WeatherType.swift */; };
 		C46F544B2ECBEAD400CBF77D /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F54162ECBEAD400CBF77D /* TodayView.swift */; };
@@ -119,6 +123,10 @@
 		C42872082ECA731B005D0286 /* PikaMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PikaMood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C428721A2ECA731D005D0286 /* PikaMoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PikaMoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42872242ECA731D005D0286 /* PikaMoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PikaMoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44BAB582ECEC8CB000B2B7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C44BAB5C2ECEC8DB000B2B7C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C44BAB5D2ECECBA7000B2B7C /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		C46D4A772ED1999A00186DF4 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		C46F53FA2ECBEAD400CBF77D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C46F53FB2ECBEAD400CBF77D /* PikaMoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PikaMoodApp.swift; sourceTree = "<group>"; };
 		C46F53FD2ECBEAD400CBF77D /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
@@ -143,7 +151,6 @@
 		C46F541B2ECBEAD400CBF77D /* MoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDetailView.swift; sourceTree = "<group>"; };
 		C46F541C2ECBEAD400CBF77D /* MoodEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEditorView.swift; sourceTree = "<group>"; };
 		C46F541E2ECBEAD400CBF77D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C46F541F2ECBEAD400CBF77D /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		C46F54202ECBEAD400CBF77D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C46F54212ECBEAD400CBF77D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C46F54222ECBEAD400CBF77D /* PikaMood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PikaMood.entitlements; sourceTree = "<group>"; };
@@ -238,6 +245,7 @@
 		C46F54002ECBEAD400CBF77D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C44BAB5D2ECECBA7000B2B7C /* LanguageManager.swift */,
 				C4F2E5AE2ECD2D500014D9A0 /* AppDelegate.swift */,
 				C4F2E59C2ECD1D9F0014D9A0 /* PastelTheme.swift */,
 				C46F53FD2ECBEAD400CBF77D /* Color+Hex.swift */,
@@ -350,12 +358,12 @@
 				C46F540D2ECBEAD400CBF77D /* Services */,
 				C46F541D2ECBEAD400CBF77D /* Views */,
 				C46F541E2ECBEAD400CBF77D /* Assets.xcassets */,
-				C46F541F2ECBEAD400CBF77D /* HistoryView.swift */,
 				C46F54202ECBEAD400CBF77D /* Info.plist */,
 				C46F54212ECBEAD400CBF77D /* Persistence.swift */,
 				C46F54222ECBEAD400CBF77D /* PikaMood.entitlements */,
 				C46F54232ECBEAD400CBF77D /* PikaMood.xcdatamodeld */,
 				C46F54242ECBEAD400CBF77D /* TagType.swift */,
+				C44BAB592ECEC8CB000B2B7C /* Localizable.strings */,
 			);
 			path = PikaMood;
 			sourceTree = "<group>";
@@ -363,6 +371,7 @@
 		C4781F472ECBF23400A3799F /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				C46D4A772ED1999A00186DF4 /* BlurView.swift */,
 				C4F2E5B82ECE50220014D9A0 /* ICloudSetupView.swift */,
 				C4F2E5A22ECD20A20014D9A0 /* SuggestionEngine.swift */,
 				C4F2E59F2ECD20760014D9A0 /* PartnerMoodPopup.swift */,
@@ -471,6 +480,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = C42871FF2ECA731B005D0286;
 			minimizedProjectReferenceProxies = 1;
@@ -492,6 +502,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4F2E5B72ECD67FC0014D9A0 /* Assets.xcassets in Resources */,
+				C44BAB5A2ECEC8CB000B2B7C /* Localizable.strings in Resources */,
 				C4F2E5B62ECD5DFB0014D9A0 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +512,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4F2E5B52ECD5DFB0014D9A0 /* Launch Screen.storyboard in Resources */,
+				C44BAB5B2ECEC8CB000B2B7C /* Localizable.strings in Resources */,
 				C46F54612ECBEAD400CBF77D /* Assets.xcassets in Resources */,
 				C46F54622ECBEAD400CBF77D /* Info.plist in Resources */,
 			);
@@ -526,7 +538,6 @@
 				C46F54272ECBEAD400CBF77D /* AnalyticsView.swift in Sources */,
 				C46F54282ECBEAD400CBF77D /* Date+Identifiable.swift in Sources */,
 				C46F54292ECBEAD400CBF77D /* PikaMood.xcdatamodeld in Sources */,
-				C46F542A2ECBEAD400CBF77D /* HistoryView.swift in Sources */,
 				C4781F3D2ECBEEFD00A3799F /* PMUser.swift in Sources */,
 				C46F542B2ECBEAD400CBF77D /* Haptics.swift in Sources */,
 				C4781F4A2ECBF24300A3799F /* UserProfileSection.swift in Sources */,
@@ -555,6 +566,8 @@
 				C46F543D2ECBEAD400CBF77D /* Persistence.swift in Sources */,
 				C46F543E2ECBEAD400CBF77D /* PikaMoodApp.swift in Sources */,
 				C46F543F2ECBEAD400CBF77D /* Color+Hex.swift in Sources */,
+				C46D4A792ED199A300186DF4 /* BlurView.swift in Sources */,
+				C44BAB5F2ECECBA9000B2B7C /* LanguageManager.swift in Sources */,
 				C46F54402ECBEAD400CBF77D /* MoodStore.swift in Sources */,
 				C46F54412ECBEAD400CBF77D /* LocalMoodDataService.swift in Sources */,
 				C4F2E5AA2ECD23970014D9A0 /* SupportMessage.swift in Sources */,
@@ -573,8 +586,8 @@
 				C46F54462ECBEAD400CBF77D /* Date+Identifiable.swift in Sources */,
 				C4F2E5A02ECD20780014D9A0 /* PartnerMoodPopup.swift in Sources */,
 				C46F54472ECBEAD400CBF77D /* PikaMood.xcdatamodeld in Sources */,
-				C46F54482ECBEAD400CBF77D /* HistoryView.swift in Sources */,
 				C46F54492ECBEAD400CBF77D /* Haptics.swift in Sources */,
+				C44BAB5E2ECECBA9000B2B7C /* LanguageManager.swift in Sources */,
 				C4F2E5A32ECD20A30014D9A0 /* SuggestionEngine.swift in Sources */,
 				C46F544A2ECBEAD400CBF77D /* WeatherType.swift in Sources */,
 				C4781F3C2ECBEEFD00A3799F /* PMUser.swift in Sources */,
@@ -605,6 +618,7 @@
 				C4F2E59D2ECD1DA10014D9A0 /* PastelTheme.swift in Sources */,
 				C4F2E59A2ECD1A820014D9A0 /* PartnerMoodHistoryView.swift in Sources */,
 				C4F2E5A92ECD23970014D9A0 /* SupportMessage.swift in Sources */,
+				C46D4A782ED199A300186DF4 /* BlurView.swift in Sources */,
 				C46F545C2ECBEAD400CBF77D /* PikaMoodApp.swift in Sources */,
 				C4781F462ECBEFC100A3799F /* UserViewModel.swift in Sources */,
 				C46F545D2ECBEAD400CBF77D /* Color+Hex.swift in Sources */,
@@ -635,6 +649,18 @@
 			targetProxy = C42872252ECA731D005D0286 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C44BAB592ECEC8CB000B2B7C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44BAB582ECEC8CB000B2B7C /* en */,
+				C44BAB5C2ECEC8DB000B2B7C /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C428722C2ECA731D005D0286 /* Debug */ = {
