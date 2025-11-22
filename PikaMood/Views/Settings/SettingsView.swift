@@ -52,7 +52,7 @@ struct SettingsView: View {
 
                         LanguageButton(
                             code: "en",
-                            flag: "🇺🇸",
+                            flag: "🌐",
                             label: NSLocalizedString("language_english", comment: ""),
                             selected: appLanguage == "en"
                         ) {

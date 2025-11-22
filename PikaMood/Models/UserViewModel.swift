@@ -90,19 +90,19 @@ final class UserViewModel: ObservableObject {
             DispatchQueue.main.async {
 
                 guard let other = match else {
-                    self.partnerLookupError = "コードが見つかりませんでした。"
+                    self.partnerLookupError = NSLocalizedString("error_code_not_found", comment: "")
                     self.isLinking = false
                     return
                 }
 
                 guard let me = self.user else {
-                    self.partnerLookupError = "ユーザー情報が読み込めません。"
+                    self.partnerLookupError = NSLocalizedString("error_user_not_loaded", comment: "")
                     self.isLinking = false
                     return
                 }
 
                 if me.id == other.id {
-                    self.partnerLookupError = "自分自身とはリンクできません。"
+                    self.partnerLookupError = NSLocalizedString("error_cannot_link_self", comment: "")
                     self.isLinking = false
                     return
                 }
@@ -115,7 +115,7 @@ final class UserViewModel: ObservableObject {
                             self.partner = other
                             self.refreshPartnerMood()
                         } else {
-                            self.partnerLookupError = "パートナーのリンクに失敗しました。"
+                            self.partnerLookupError = NSLocalizedString("error_partner_link_failed", comment: "")
                         }
                     }
                 }

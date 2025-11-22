@@ -81,3 +81,152 @@
 "analytics_insights" = "Insights";
 "analytics_no_data" = "No data to analyze yet 🌱";
 "analytics_tips_title" = "Small Tips";
+
+"analytics_title" = "Mood Analytics";
+
+"analytics_overview_title" = "Your Mood Overview";
+"analytics_overview_logs" = "You’ve logged %d moods so far.";
+"analytics_overview_last7" = "%d moods in the last 7 days.";
+"analytics_overview_empty" = "No mood entries yet — start with today ✨";
+
+"analytics_self_section_title" = "Your Mood Patterns";
+"analytics_mood_ratio" = "Mood ratio";
+"analytics_weekly_trend" = "Mood by weekday";
+
+"analytics_insight_title" = "Insights";
+"analytics_insight_empty" = "Not enough data to analyze yet 🌱";
+"analytics_insight_no_dominant" = "No mood type dominates yet. Your feelings are quite balanced.";
+"analytics_insight_most_common" = "Recently you’ve often felt “%@”.";
+"analytics_insight_bestday_unknown" = "We can’t identify a “best day” yet.";
+"analytics_insight_bestday" = "%@ tends to be your happiest day.";
+
+"analytics_partner_section_title" = "Partner Mood & Couple Insights";
+"analytics_partner_no_data" = "No mood data from your partner yet. Once they start logging, you’ll see couple insights here 💞";
+"analytics_partner_summary_title" = "%@’s connection with you";
+"analytics_partner_sync_days" = "You logged moods together on %d%% of active days.";
+"analytics_partner_alignment" = "Your emotional alignment is about %d%%.";
+"analytics_partner_best_day" = "Most synced moods on %@.";
+"analytics_partner_top_shared_mood" = "Most common shared mood: %@";
+
+"analytics_partner_chart_title" = "Mood flow together (last 14 days)";
+"analytics_partner_chart_empty" = "No overlapping days recently to draw a comparison chart.";
+
+"analytics_partner_insight_title" = "Couple Insights";
+"analytics_partner_insight_empty" = "Once both of you log more moods, we’ll show how you support each other 💞";
+"analytics_partner_insight_generic" = "You and your partner are building your emotional rhythm together.";
+"analytics_partner_insight_summary" = "You’ve logged moods on the same day %d%% of the time, with an emotional match of around %d%%. That’s a beautiful connection 💕";
+
+"analytics_partner_support_partner" = "Your partner has more low-mood days. You’re often the calm side of the pair — your presence is a big support 🤍";
+"analytics_partner_support_you" = "You experience more low-mood days than your partner. They often stay steady, giving you a soft place to land 🫶";
+"analytics_partner_support_balanced" = "You take turns feeling low and strong. It’s a balanced relationship where you gently hold each other up.";
+
+"analytics_empty_title" = "No analytics yet";
+"analytics_empty_subtitle" = "Add today’s mood to see your patterns 🌈";
+
+"analytics_harmony_title" = "Mood Harmony 💞";
+"analytics_harmony_empty" = "Not enough shared mood data yet… try logging moods for a few days together.";
+
+"analytics_harmony_label_perfect" = "Telepathy Level Sync 💞";
+"analytics_harmony_label_good" = "Great Balance 💗";
+"analytics_harmony_label_soft" = "Soft Harmony 🌈";
+"analytics_harmony_label_mix" = "Mixed Feelings Days 🌧️";
+"analytics_harmony_label_journey" = "A Journey of Understanding 🌱";
+
+"analytics_harmony_sub_perfect" = "Your feelings are syncing beautifully. Cherish this special time together.";
+"analytics_harmony_sub_good" = "You’re understanding each other well. Maybe share a small 'thank you' today.";
+"analytics_harmony_sub_soft" = "Some days match, some differ—this is what builds a relationship.";
+"analytics_harmony_sub_mix" = "There seem to be more mismatched days. Try listening from your partner's perspective.";
+"analytics_harmony_sub_journey" = "Even different emotional rhythms can help you find new ways to support each other.";
+
+"analytics_galaxy_title" = "Couple Mood Galaxy";
+"analytics_galaxy_subtitle" = "Every shared day becomes a star 💫";
+"analytics_galaxy_empty" = "Not enough shared days to form a galaxy yet.";
+
+"profile_header" = "Profile 🧸";
+"profile_name" = "Name";
+"profile_save" = "Save";
+"profile_edit" = "Edit";
+"profile_your_code" = "Your Code";
+"profile_loading" = "Loading user info…";
+
+"partner_header" = "Partner Settings 💞";
+"partner_linked_title" = "Linked Partner";
+"partner_input_placeholder" = "Enter partner code";
+"partner_link_button" = "Link 💗";
+
+"partner_mood_title" = "💞 Partner's Mood";
+"partner_mood_empty" = "Your partner hasn't logged their mood today.";
+
+"time_just_now" = "just now";
+"time_minutes_ago" = "%d minutes ago";
+"time_hours_ago" = "%d hours ago";
+"time_yesterday" = "yesterday";
+
+"mood_meaning_happy" = "💖 Your partner seems happy! Maybe send a sweet message?";
+"mood_meaning_sad" = "💙 They might be feeling a bit low. Send something warm.";
+"mood_meaning_angry" = "❤️‍🔥 They might be stressed. Offer gentle support.";
+"mood_meaning_okay" = "💛 They seem calm. Maybe send a small encouraging message?";
+"mood_meaning_default" = "🧸 Be kind to your partner’s feelings.";
+
+"partner_history_title" = "%@'s Mood History";
+"loading_text" = "Loading…";
+"nav_mood_history" = "Mood History";
+
+"partner_popup_title" = "Your partner updated their mood 💞";
+"partner_popup_quote" = "\"%@\"";
+"partner_popup_suggestion_title" = "💡 Suggestion";
+"partner_popup_send_hug" = "Send a hug 🤗";
+"partner_popup_send_message" = "Send a message 💌";
+"partner_popup_close" = "Close";
+
+"suggestion_very_happy" = "Celebrate that beautiful feeling together! 🌟";
+"suggestion_happy" = "Share their happy mood with them! 🎉";
+"suggestion_okay" = "Maybe gently ask how their day is going 🙂";
+"suggestion_sad" = "Send a warm and comforting message 💌";
+"suggestion_angry" = "Giving them a bit of space might help 🫶";
+"suggestion_tired" = "Tell them to get some good rest 😴🤍";
+"suggestion_calm" = "Enjoy the peaceful mood together 🌿😌";
+
+"icloud_title" = "Please sign in to iCloud";
+"icloud_description" = "This app uses CloudKit.\n\nTo continue, you must be signed in to iCloud on your iPhone.";
+"icloud_howto_title" = "📱 How to enable:";
+"icloud_step1" = "1. Open the Settings app";
+"icloud_step2" = "2. Tap your name at the top";
+"icloud_step3" = "3. Sign in with your Apple ID";
+"icloud_step4" = "4. Tap iCloud";
+"icloud_step5" = "5. Turn on iCloud Drive";
+"icloud_step6" = "6. Enable iCloud for PikaMood";
+"icloud_open_settings" = "Open Settings";
+
+"mood_today_title" = "How are you feeling today?";
+"mood_diary_subtitle" = "Your cute mood diary 🌸";
+
+"lock_title" = "🔒 PikaMood";
+"lock_faceid_prompt" = "Unlock with Face ID 💖";
+"lock_auth_button" = "Authenticate";
+"notif_daily_title" = "How are you feeling today? 💖";
+"notif_daily_body" = "Don't forget to record your mood 🌸";
+
+"notif_partner_title" = "Your partner updated their mood 🌸";
+"auth_reason_unlock" = "Unlock PikaMood";
+"notif_partner_ck_title" = "Your partner updated their mood 💞";
+"notif_partner_ck_body" = "Take a moment to check their mood today!";
+
+"notif_mood_veryHappy" = "😄 They are feeling very happy today!";
+"notif_mood_happy"     = "😊 They seem happy today!";
+"notif_mood_okay"      = "🙂 They seem okay today.";
+"notif_mood_sad"       = "😢 They might be feeling sad today.";
+"notif_mood_angry"     = "😡 They might be stressed today.";
+"notif_mood_tired"     = "😴 They seem tired today.";
+"notif_mood_calm"      = "😌 They seem calm and peaceful today.";
+
+"error_code_not_found" = "The code could not be found.";
+"error_user_not_loaded" = "Unable to load user information.";
+"error_cannot_link_self" = "You cannot link with yourself.";
+"error_partner_link_failed" = "Failed to link with your partner.";
+
+"tab_today" = "Today";
+"tab_calendar" = "Calendar";
+"tab_analytics" = "Analytics";
+"tab_pixels" = "Pixels";
+"tab_settings" = "Settings";

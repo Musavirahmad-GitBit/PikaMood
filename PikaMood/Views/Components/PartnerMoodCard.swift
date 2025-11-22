@@ -8,7 +8,7 @@ struct PartnerMoodCard: View {
         VStack(alignment: .leading, spacing: 12) {
 
             HStack {
-                Text("💞 パートナーの気分")
+                Text(NSLocalizedString("partner_mood_title", comment: ""))
                     .font(.headline)
 
                 Spacer()
@@ -27,45 +27,39 @@ struct PartnerMoodCard: View {
                             .font(.title3)
                             .bold()
 
-                        // TIME AGO
                         Text(timeAgo(from: mood.date))
                             .font(.caption)
                             .foregroundColor(.gray)
                     }
                 }
 
-                // WEATHER + TAG
                 HStack(spacing: 10) {
                     if let w = mood.weather {
                         Text(w.emoji)
                             .font(.title2)
                     }
-
                     if let t = mood.tag {
                         Text(t.emoji)
                             .font(.title2)
                     }
                 }
 
-                // INTENSITY BAR
                 if let intensity = mood.intensity {
                     ProgressView(value: intensity)
                         .progressViewStyle(.linear)
                         .tint(.pink)
                 }
 
-                // MEANING / SUGGESTION
                 Text(moodMeaning(for: mood.moodType))
                     .font(.footnote)
                     .foregroundColor(.purple)
                     .padding(.top, 4)
 
             } else {
-                Text("まだ今日の気分は記録されていません。")
+                Text(NSLocalizedString("partner_mood_empty", comment: ""))
                     .font(.caption)
                     .foregroundColor(.gray)
             }
-
         }
         .padding()
         .background(RoundedRectangle(cornerRadius: 18).fill(Color.white))
@@ -77,20 +71,34 @@ struct PartnerMoodCard: View {
     func timeAgo(from date: Date) -> String {
         let seconds = Int(Date().timeIntervalSince(date))
 
-        if seconds < 60 { return "たった今" }
-        if seconds < 3600 { return "\(seconds / 60) 分前" }
-        if seconds < 86400 { return "\(seconds / 3600) 時間前" }
-        return "昨日"
+        if seconds < 60 {
+            return NSLocalizedString("time_just_now", comment: "")
+        }
+        if seconds < 3600 {
+            let mins = seconds / 60
+            return String(format: NSLocalizedString("time_minutes_ago", comment: ""), mins)
+        }
+        if seconds < 86400 {
+            let hours = seconds / 3600
+            return String(format: NSLocalizedString("time_hours_ago", comment: ""), hours)
+        }
+
+        return NSLocalizedString("time_yesterday", comment: "")
     }
 
     // MARK: - Mood Meaning
     func moodMeaning(for mood: MoodType) -> String {
         switch mood {
-        case .happy: return "💖 パートナーは幸せそう！やさしい言葉を送ってみる？"
-        case .sad: return "💙 少し落ち込んでるかも。温かいメッセージを送ろう。"
-        case .angry: return "❤️‍🔥 ストレスを感じているかも。そっと支えてあげて。"
-        case .okay: return "💛 穏やかな気分みたい。小さな応援メッセージはどう？"
-        default: return "🧸 パートナーの気分を大切にしよう。"
+        case .happy:
+            return NSLocalizedString("mood_meaning_happy", comment: "")
+        case .sad:
+            return NSLocalizedString("mood_meaning_sad", comment: "")
+        case .angry:
+            return NSLocalizedString("mood_meaning_angry", comment: "")
+        case .okay:
+            return NSLocalizedString("mood_meaning_okay", comment: "")
+        default:
+            return NSLocalizedString("mood_meaning_default", comment: "")
         }
     }
 }

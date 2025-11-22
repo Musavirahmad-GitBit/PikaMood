@@ -13,12 +13,12 @@ struct UserProfileSection: View {
     @State private var tempName = ""
 
     var body: some View {
-        Section(header: Text("プロフィール 🧸")) {
+        Section(header: Text(NSLocalizedString("profile_header", comment: ""))) {
 
             if let user = userVM.user {
 
                 HStack {
-                    Text("名前")
+                    Text(NSLocalizedString("profile_name", comment: ""))
                     Spacer()
 
                     if editingName {
@@ -26,7 +26,7 @@ struct UserProfileSection: View {
                             .textFieldStyle(.roundedBorder)
                             .frame(width: 150)
 
-                        Button("保存") {
+                        Button(NSLocalizedString("profile_save", comment: "")) {
                             guard !tempName.isEmpty else { return }
                             userVM.updateDisplayName(tempName)
                             editingName = false
@@ -37,7 +37,7 @@ struct UserProfileSection: View {
                         Text(user.displayName)
                             .foregroundColor(.gray)
 
-                        Button("編集") {
+                        Button(NSLocalizedString("profile_edit", comment: "")) {
                             tempName = user.displayName
                             editingName = true
                         }
@@ -46,7 +46,7 @@ struct UserProfileSection: View {
                 }
 
                 HStack {
-                    Text("あなたのコード")
+                    Text(NSLocalizedString("profile_your_code", comment: ""))
                     Spacer()
                     Text(user.shareCode)
                         .font(.system(.body, design: .monospaced))
@@ -56,7 +56,7 @@ struct UserProfileSection: View {
                 }
 
             } else {
-                Text("ユーザー情報を読み込み中…")
+                Text(NSLocalizedString("profile_loading", comment: ""))
             }
         }
     }

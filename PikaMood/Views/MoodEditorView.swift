@@ -77,18 +77,22 @@ struct MoodEditorView: View {
     }
     private var headerSection: some View {
         VStack(spacing: 8) {
+            // Date stays formatted in localized style
             Text(formattedDate(date))
                 .font(.caption)
                 .foregroundColor(.gray)
 
-            Text("今日の気分は？")
+            // 🔥 Localized title
+            Text(NSLocalizedString("mood_today_title", comment: "Header asking user's mood"))
                 .font(.system(size: 28, weight: .bold, design: .rounded))
                 .foregroundColor(.pink)
 
-            Text("かわいいムード日記 🌸")
+            // 🔥 Localized subtitle
+            Text(NSLocalizedString("mood_diary_subtitle", comment: "Cute mood diary subtitle"))
                 .font(.subheadline)
                 .foregroundColor(.gray)
 
+            // Cat emoji (universal)
             Text("ฅ^•ﻌ•^ฅ")
                 .font(.system(size: 48))
                 .foregroundColor(.black)
@@ -100,6 +104,7 @@ struct MoodEditorView: View {
                 .onAppear { catBounce = true }
         }
     }
+
     private var moodGridSection: some View {
         let columns = [
             GridItem(.flexible()),

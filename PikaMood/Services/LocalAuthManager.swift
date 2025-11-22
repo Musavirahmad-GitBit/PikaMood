@@ -19,8 +19,10 @@ final class LocalAuthManager: ObservableObject {
         var error: NSError?
 
         if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) {
+            let reason = NSLocalizedString("auth_reason_unlock", comment: "Reason shown when unlocking with biometrics")
+
             context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics,
-                                   localizedReason: "PikaMoodロックを解除します") { success, _ in
+                                   localizedReason: reason) { success, _ in
                 DispatchQueue.main.async {
                     self.isUnlocked = success
                 }

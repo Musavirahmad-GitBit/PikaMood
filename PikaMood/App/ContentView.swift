@@ -7,35 +7,35 @@ struct RootView: View {
                 TodayView()
             }
             .tabItem {
-                Label("今日", systemImage: "sun.max.fill")
+                Label(NSLocalizedString("tab_today", comment: ""), systemImage: "sun.max.fill")
             }
 
             NavigationStack {
                 CalendarView()
             }
             .tabItem {
-                Label("カレンダー", systemImage: "calendar")
+                Label(NSLocalizedString("tab_calendar", comment: ""), systemImage: "calendar")
             }
 
             NavigationStack {
                 AnalyticsView()
             }
             .tabItem {
-                Label("分析", systemImage: "chart.pie.fill")
+                Label(NSLocalizedString("tab_analytics", comment: ""), systemImage: "chart.pie.fill")
             }
 
             NavigationStack {
                 YearInPixelsView()
             }
             .tabItem {
-                Label("ピクセル", systemImage: "square.grid.3x3.fill")
+                Label(NSLocalizedString("tab_pixels", comment: ""), systemImage: "square.grid.3x3.fill")
             }
 
             NavigationStack {
                 SettingsView()
             }
             .tabItem {
-                Label("設定", systemImage: "gearshape.fill")
+                Label(NSLocalizedString("tab_settings", comment: ""), systemImage: "gearshape.fill")
             }
         }
         .tint(.pink)
